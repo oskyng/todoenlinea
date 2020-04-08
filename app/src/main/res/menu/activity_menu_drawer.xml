@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/icons8_lista_24"
+            android:title="Listar Productos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icons8_agregar_a_carrito_de_compras_24"
+            android:title="Agregar Productos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icons8_busqueda_pagada_24"
+            android:title="Buscar Productos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/agregarc"
+            android:title="Agregar Marcas y Categorias" />
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/icons8_marcador_de_mapa_24"
+            android:title="Ubicacion tienda" />
+    </group>
+
+</menu>

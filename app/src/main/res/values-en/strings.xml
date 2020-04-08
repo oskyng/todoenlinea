@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoEnLineaV2</string>
+    <string name="txUsuario">User</string>
+    <string name="txPassword">Password</string>
+    <string name="btIniciar">Enter</string>
+    <string name="btRegistrar">Sing up</string>
+    <string name="lblBienvenida">Welcome!</string>
+    <string name="lblRepContraseña">Repeat Password</string>
+    <string name="lblRut">RUT</string>
+    <string name="lblSexo">Sex</string>
+    <string name="lblMasculino">Male</string>
+    <string name="lblFemenino">Female</string>
+    <string name="lblRol">Position</string>
+    <string name="lblRegistrar">Register User</string>
+    <string name="title_activity_mprincipal">MPrincipalActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ip">https://oscarsanzana97.000webhostapp.com</string>
+    <string name="facebook_app_id">2315446391862683</string> <string name="fb_login_protocol_scheme">fb2315446391862683</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

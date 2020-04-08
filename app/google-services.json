@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "619313890877",
+    "firebase_url": "https://todoenlineav2-1.firebaseio.com",
+    "project_id": "todoenlineav2-1",
+    "storage_bucket": "todoenlineav2-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619313890877:android:ebadfcfe003dc2a7",
+        "android_client_info": {
+          "package_name": "com.example.oscarsanzana.todoenlineav2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619313890877-bd068g9p6gsetul2r6u3t7bhccqomjbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oscarsanzana.todoenlineav2",
+            "certificate_hash": "a41ee2db719be330066249f442b7f7eac9f7f67f"
+          }
+        },
+        {
+          "client_id": "619313890877-l7mtpjo6kjug5j7mup1emgo15v2bggo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp1cLzKPi6gqXrwJTSKKJEkD5kHG8DUDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619313890877-l7mtpjo6kjug5j7mup1emgo15v2bggo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

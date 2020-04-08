@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentos.AgregarProductoFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circle"
+                    android:padding="10dp"
+                    android:src="@drawable/icons8_agregar_a_carrito_de_compras_24"
+                    android:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="AGREGAR PRODUCTO"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/linearLayout1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-10dp"
+                    android:rotation="45"
+                    android:src="@drawable/square" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="46dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/icons8_codigo_de_barras_24"
+                            android:tint="@color/white" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/icons8_producto_24"
+                            android:tint="@color/white" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/icons8_dolar_estadounidense_24"
+                            android:tint="@color/white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/icons8_comprobar_contrasena_24"
+                            android:tint="@color/white" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:background="@color/colorPrimary"
+                            android:src="@drawable/icons8_signo_de_interrogacion_24"
+                            android:tint="@color/white" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Marca" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="39dp"
+                            android:background="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="categoria" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="22.9dp"
+                            android:background="@color/colorPrimary" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="318dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+
+
+                        <EditText
+                            android:id="@+id/txSku"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/editTextBG"
+                            android:ems="10"
+                            android:hint="SKU*"
+                            android:inputType="textPersonName"
+                            android:text=""
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <EditText
+                            android:id="@+id/txNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/editTextBG"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:hint="Nombre producto*"
+                            android:textSize="15sp"
+                            android:text="" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <EditText
+                            android:id="@+id/txPrecio"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/editTextBG"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:hint="Precio producto*"
+                            android:textSize="15sp"
+                            android:text="" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <EditText
+                            android:id="@+id/txStock"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/editTextBG"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:hint="Stock*"
+                            android:textSize="15sp"
+                            android:text="" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <RadioGroup
+                            android:id="@+id/rgDietetico"
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="90dp"
+                                android:layout_height="wrap_content"
+                                android:text="Es dietetico?" />
+
+                            <RadioButton
+                                android:id="@+id/rbtrue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="Si" />
+
+                            <RadioButton
+                                android:id="@+id/rbfalse"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="No" />
+                        </RadioGroup>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+
+                        <Spinner
+                            android:id="@+id/spMarca"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <Spinner
+                            android:id="@+id/spCategoria"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:id="@+id/imgFoto"
+                                android:layout_width="118dp"
+                                android:layout_height="90dp"
+                                android:layout_below="@+id/linearLayout"
+                                android:layout_centerHorizontal="false"
+                                android:src="@drawable/img_base" />
+
+                            <Button
+                                android:id="@+id/btnFoto"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorPrimary"
+                                android:text="Agregar imagen"
+                                android:textColor="@color/white" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary" />
+
+                        <CalendarView
+                            android:id="@+id/calFecha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Todos los campos requeridos con simbolo (*)"/>
+
+                        <Button
+                            android:id="@+id/btnAgregar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:text="Agregar"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
